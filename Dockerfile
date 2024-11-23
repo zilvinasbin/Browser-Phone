@@ -227,7 +227,7 @@ RUN rm -rf /var/lib/asterisk/static-http/*
 
 WORKDIR /usr/local/src
 # Download Browser-Phone
-RUN	git clone https://github.com/InnovateAsterisk/Browser-Phone.git
+RUN	git clone https://github.com/zilvinasbin/Browser-Phone.git
 RUN cp -r /usr/local/src/Browser-Phone/Phone/* /var/lib/asterisk/static-http/
 
 # Set HTTP file permissions
